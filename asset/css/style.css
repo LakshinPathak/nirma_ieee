@@ -462,6 +462,7 @@ section.subscribe ul {
 
 section.subscribe ul li {
   list-style-type: disc;
+  color: #b5bfd2;
 }
 
 ul.blog-utilites {
