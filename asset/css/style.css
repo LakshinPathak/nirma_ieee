@@ -9,7 +9,7 @@
   box-sizing: border-box;
 }
 body {
-  background: #000;
+  background:#000;
   color: white;
   font-family: "Open Sans";
 }
@@ -71,7 +71,7 @@ a.underline {
 }
 
 .button {
-  font-family: "alliance", mono, sans-serif;
+  font-family: "alliance", mono, "Open Sans";
   position: relative;
   z-index: 1;
   display: inline-flex;
@@ -88,26 +88,15 @@ a.underline {
   letter-spacing: 0.07em;
   text-transform: uppercase;
   font-feature-settings: "salt" on, "ss01" on, "ss02" on;
-  color: #fff;
+  color:  #010b15;;
   border: 2px solid #ff7571;
 }
 
 .button:hover {
-  background: linear-gradient(
-    269.16deg,
-    #ffe580 -15.83%,
-    #ff7571 -4.97%,
-    #ff7270 15.69%,
-    #ea5dad 32.43%,
-    #c2a0fd 50.09%,
-    #9867f0 67.47%,
-    #3bf0e4 84.13%,
-    #33ce43 105.13%,
-    #b2f4b6 123.24%
-  );
+  background-color: rgb(134, 186, 238);
   background-position: 58% 50%;
   background-size: 500%;
-  color: black;
+  color: #e3e8ec;
 }
 
 section.updates {
@@ -167,8 +156,8 @@ header {
   display: inline-block;
   width: 100%;
   min-height: 70px;
-  background: #040303;
-  border-bottom: 1px solid rgba(66, 82, 109, 0.5);
+  background: rgb(31, 50, 72);
+  border-bottom: 1px solid rgba(243, 247, 252, 0.5);
   padding: 0 30px;
 }
 
@@ -179,8 +168,10 @@ header {
 }
 
 .header_inner_Wrapper .logo img {
-  width: 40%;
+  width: 200px;
   margin: 8px 0;
+  margin: 10px;
+  margin-right: 30px;
 }
 
 header nav {
@@ -294,7 +285,7 @@ section.sponsors {
   text-align: center;
   width: 100%;
   height: auto;
-  background-color: #040303;
+  background-color: #ebeef0;
   /* border-top: 1px solid rgba(66,82,109,0.5); */
   padding: 50px 0;
 }
@@ -313,8 +304,10 @@ section.attends {
   display: inline-block;
   width: 100%;
   height: auto;
-  background-color: #040303;
-  background-image: url("shape-bl.webp");
+  /* background-color: #fbf7f7; */
+
+  
+  /* background-image: url("shape-bl.webp"); */
   background-position: bottom/left;
   background-attachment: cover;
   background-repeat: no-repeat;
@@ -348,8 +341,8 @@ section.content {
   display: inline-block;
   width: 100%;
   min-height: 100px;
-  background-color: #040303;
-  background-image: url("../images/pattern-light.svg");
+  background-color: #f2f4f7;
+  /* background-image: url("../images/pattern-light.svg"); */
   background-position: center;
   background-size: cover;
   padding: 30px 0 80px;
@@ -415,18 +408,7 @@ ul.sponsor-list li a {
 }
 
 hr.gradient {
-  background: linear-gradient(
-    269.16deg,
-    #ffe580 -15.83%,
-    #ff7571 -4.97%,
-    #ff7270 15.69%,
-    #ea5dad 32.43%,
-    #c2a0fd 50.09%,
-    #9867f0 67.47%,
-    #3bf0e4 84.13%,
-    #33ce43 105.13%,
-    #b2f4b6 123.24%
-  );
+  background: #959da5;
   height: 8px;
 }
 
@@ -442,7 +424,7 @@ section.subscribe {
   width: 100%;
   height: auto;
   z-index: 1;
-  background: url("../images/cta-bg.png") center/100% auto no-repeat;
+  /* background: url("../images/cta-bg.png") center/100% auto no-repeat; */
   padding: 120px 0;
   background-size: cover;
 }
@@ -462,7 +444,7 @@ section.subscribe ul {
 
 section.subscribe ul li {
   list-style-type: disc;
-  color: #b5bfd2;
+  color:  #010b15;;
 }
 
 ul.blog-utilites {
@@ -514,7 +496,7 @@ ul.faq-question svg {
   float: right;
   cursor: pointer;
   margin-top: -35px;
-  fill: white;
+  fill: rgb(14, 13, 13);
   transition: transform 0.6s ease;
 }
 
@@ -529,7 +511,7 @@ ul.faq-question .faq-content {
   margin-left: 0px;
   font-weight: 500;
   margin-bottom: 26px;
-  color: #959da5;
+  color: #090909;
 }
 
 ul.speaker-list {
@@ -566,18 +548,18 @@ ul.speaker-list li h3, .member h3 {
   padding-left: 15%;
   padding-right: 15%;
   font-size: 16px;
-  color: white;
+  color: rgb(17, 17, 17);
   margin-bottom: 4px;
 }
 
 ul.speaker-list li h4, .member h4 {
   font-size: 23px;
-  color: white;
+  color: rgb(11, 11, 11);
 }
 
 ul.speaker-list li h5, .member h5 {
   font-size: 20px;
-  color: #b5bfd2;
+  color: #0f0f0f;
 }
 
 section.speakers h1 {
@@ -706,4 +688,9 @@ section.profile .social svg {
   .carousel .xyz {
     height: 180px;
   }
+}
+
+
+*{
+  font-family: "Open Sans";
 }
