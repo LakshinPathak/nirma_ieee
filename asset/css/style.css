@@ -9,7 +9,7 @@
   box-sizing: border-box;
 }
 body {
-  background:#000;
+  background:#0a0a0a;
   color: white;
   font-family: "Open Sans";
 }
@@ -210,7 +210,7 @@ header nav li.active a::after {
   position: absolute;
   bottom: -5px;
   left: 0;
-  background-color: #d73a49;
+  background-color: #959da5;
 }
 /* Header CSS Ends  */
 
@@ -295,7 +295,7 @@ section.speakers {
   display: inline-block;
   width: 100%;
   height: auto;
-  background-color: #040303;
+  background-color: #12385a;
   padding: 50px 0;
 }
 
