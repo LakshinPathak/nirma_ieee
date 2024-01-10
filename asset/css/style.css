@@ -174,6 +174,23 @@ header {
   margin-right: 30px;
 }
 
+
+
+.header_inner_Wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.header_inner_Wrapper .logo img {
+  max-width: 100%; /* Ensure the image doesn't exceed its container */
+  height: auto; /* Maintain the aspect ratio of the image */
+  margin: 10px;
+  margin-right: 30px;
+}
+
+
+
 header nav {
   display: flex;
   flex-wrap: nowrap;
@@ -408,7 +425,8 @@ ul.sponsor-list li a {
 }
 
 hr.gradient {
-  background: #959da5;
+  /* background: #959da5; */
+  background: linear-gradient(to bottom, #87CEEB, #1E90FF);
   height: 8px;
 }
 
