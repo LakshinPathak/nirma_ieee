@@ -156,7 +156,7 @@ header {
   display: inline-block;
   width: 100%;
   min-height: 70px;
-  background: rgb(31, 50, 72);
+  background: rgb(136, 173, 214);
   border-bottom: 1px solid rgba(243, 247, 252, 0.5);
   padding: 0 30px;
 }
@@ -221,7 +221,7 @@ header nav li.active a::after {
   position: absolute;
   bottom: -5px;
   left: 0;
-  background-color: #959da5;
+  background-color: #eb3e31;
 }
 /* Header CSS Ends  */
 
@@ -755,9 +755,9 @@ iframe {
   margin-bottom: 20px;
 }
 
-p {
+/* p {
   text-align: justify;
-}
+} */
 
 /* Media query for smaller screens */
 @media only screen and (max-width: 768px) {
