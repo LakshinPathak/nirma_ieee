@@ -539,7 +539,7 @@ ul.speaker-list li {
   display: inline-block;
   padding-top: 30px;
   padding-bottom: 35px;
-  border-bottom: 1px solid rgba(66, 82, 109, 0.5);
+
 }
 
 /* Speaker Section  */
@@ -712,7 +712,7 @@ section.profile .social svg {
 
 .grid-container_5 {
   display: grid;
-  grid-template-columns: 40% 60%;
+  grid-template-columns: 30% 70%;
 }
 
 .grid-item_5 {
@@ -746,7 +746,7 @@ body {
 }
 
 iframe {
-  width: 100%;
+  width: 90%;
   height: 100%;
 }
 
@@ -799,3 +799,33 @@ iframe {
       float: right;
   }
 }
+
+
+form {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
