@@ -443,13 +443,13 @@ section.subscribe {
 
 section.subscribe p {
   width: 100%;
-  font-size: 24px;
+  font-size: 22px;
   margin-bottom: 20px;
 }
 
 section.subscribe ul {
   width: 100%;
-  font-size: 24px;
+  font-size: 22px;
   margin-bottom: 20px;
   padding-left: 20px;
 }
@@ -707,4 +707,95 @@ section.profile .social svg {
 
 *{
   font-family: "Open Sans";
+}
+
+
+.grid-container_5 {
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+
+.grid-item_5 {
+  text-align: center;
+}
+
+.col-full {
+  width: 100%;
+}
+
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.form {
+  background-color: white;
+  padding: 20px;
+}
+
+.grid-container_5 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.grid-item_5 {
+  border-right: black solid;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+p {
+  text-align: justify;
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+  .grid-container_5 {
+      grid-template-columns: 1fr;
+  }
+
+  .grid-item_5 {
+      border-right: none;
+      margin-bottom: 20px; /* Add some space between grid items */
+  }
+}
+
+
+@media only screen and (max-width: 1000px) {
+  .grid-container_5 {
+    grid-template-columns: 100%;
+  }
+}
+
+
+@media (-webkit-min-device-pixel-ratio: 1.1), (-webkit-min-device-pixel-ratio: 1.09375), (min-resolution: 105dpi), (min-resolution: 1.1dppx) {
+  /* Serve SVG sprite if browser supports SVG and resolution is more than 105dpi */
+  .pswp--svg .pswp__button, .pswp--svg .pswp__button--arrow--left:before, .pswp--svg .pswp__button--arrow--right:before {
+      background-image: url(images/photoswipe/default-skin.svg);
+  }
+  .pswp--svg .pswp__button--arrow--left, .pswp--svg .pswp__button--arrow--right {
+      background: none;
+  }
+}
+
+
+@media screen and (max-width: 1024px) {
+  .pswp__preloader {
+      position: relative;
+      left: auto;
+      top: auto;
+      margin: 0;
+      float: right;
+  }
 }
